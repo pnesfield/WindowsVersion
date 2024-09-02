@@ -7,6 +7,7 @@ Designed to run in Win PXE so that the version of Windows can be seen without lo
 
 
 C: Not Found
+
 E: Windows 10 Version: 6.2.19041.4780 
 
 X: Windows 10 Version: 6.2.18362.418 
