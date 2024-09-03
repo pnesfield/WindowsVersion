@@ -1,10 +1,13 @@
-## WindowsVersion
+## WindowsVersion winver
 
-Finds version of a well known Windows file gets version and prints result
+Win PE Find version of the OS on a computer's disk. Looks for a well known Windows file ntoskrnl.exe, gets version and prints result.
 
-Designed to run in Win PXE so that the version of Windows can be seen without logging in. This involves, statically linked libraries and the exe will run.
+Designed for use during computer recycling, assumes the OS is licensed and that a reinstall would activate properly. Boot to straight to Win PE, check OS and then proceed with installation.
+
+Designed to run in Win PXE this involves statically linked libraries, setup in VS project properties.
 
 
+F:>WindowsVersion
 
 C: Not Found
 
@@ -12,4 +15,6 @@ E: Windows 10 Version: 6.2.19041.4780
 
 X: Windows 10 Version: 6.2.18362.418 
 
-This shows that the hard disk (E:) has a windows 10 installation
+F:>
+
+This shows that the hard disk (E:) has a windows 10 installation, X: is the Win PXE OS
