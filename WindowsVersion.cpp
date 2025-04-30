@@ -1,4 +1,3 @@
-//#pragma comment(lib,"Version.lib") 
 #define MAX_LINE_LENGTH 4096
 #include <string.h>
 #include <cstring>
